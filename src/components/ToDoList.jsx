@@ -44,7 +44,7 @@ class ToDoList extends Component {
           Showing Total {completedCount} Completed Tasks
         </h4>
         <h4 className="badge badge-danger p-2 ml-2 ">
-          Showing Total {count - completedCount} Uncompleted Tasks
+          Showing Total {count - completedCount} Remaining Tasks
         </h4>
         <ol className="list-group list-group-flush">
           {this.state.todoList.map(list => (
